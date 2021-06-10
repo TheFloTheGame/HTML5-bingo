@@ -11,29 +11,25 @@
 }
 
 body {
-	background-color: #a1a1a1;
-	background-image: url('../img/red_texture.png');
-	font-family: "BodoniSvtyTwoOSITCTT-Bold", "Georgia", serif;
+	background-color: #222;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: 600;
 	text-rendering: optimizeLegibility;
 }
 
 #container {
 	width: 640px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: none;
+	margin: 50px auto auto auto;
 }	
 
 #header, #footer {
+	text-align: center;
 	display: block;
 	float: left;
-	width: 600px;
-	color: #000000;
-	opacity: 0.75;
-	text-shadow: 0px 1px 0px #e1e1e1, 0px -1px 0px #313131;
+	width: 750px;
+	color: #e71d36;
    	background-color: none;
-   	text-align: center;
 	font-size: 2.8em;
 	font-weight: bold;
 	padding: 8px 20px 8px 20px;
@@ -54,27 +50,25 @@ body {
 
 #footer a {
 	text-decoration: none;
-	color: #8B3E2F;
+	color: #e71d36;
 }
 
 #board {
 	display: block;
 	float: left;
-	width: 640px;
-	background-color: #fff;
-	margin-bottom: 10px;
-	box-shadow: 0px 3px #919191;
+	width: 790px;
+	background-color: #FDFFFC;
 }
 
 .square, .freesquare {
 	display: block;
 	float: left;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #FDFFFC;
 	color: #313131;
 	text-align: center;
-	width: 120px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
 	padding: 3px;
 	border: 1px solid #d1d1d1;
 	transition-property: background-color;
@@ -87,14 +81,16 @@ body {
 
 .selected {
 	color: #f1f1f1;
-	background-color: #313131;
+	background-color: #00be4fa1;
 }
 
 .text {
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Arial, sans-serif;
 	vertical-align: middle;
-	font-size: 1.0em;
-	line-height: 1.1em;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	height: inherit;
+	width: inherit;
+	display: table-cell;
 }
 
 .small {
