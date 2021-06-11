@@ -6,7 +6,7 @@ var winText = "Winner";
 
 var clickSnd = new Audio("audio/click.mp3");
 
-var winSnd = new Audio("audio/win.mp3");
+var winSnd = new Audio("audio/Orgasm 1.mp3");
 
 var BingoArray = [
         "WORLD PREMIERE",
